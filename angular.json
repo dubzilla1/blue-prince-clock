@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "projects": {
+    "blue-prince-timer": {
+      "projectType": "application",
+      "root": "src",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/blue-prince-timer",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": [],
+            "tsConfig": "tsconfig.app.json",
+            "assets": ["src/assets"],
+            "styles": ["src/styles.scss"],
+            "scripts": []
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": { "browserTarget": "blue-prince-timer:build" }
+        }
+      }
+    }
+  },
+  
+  "cli": {
+    "analytics": "513262cc-07f7-4372-ad34-2e91b23b8b04"
+  }
+}
