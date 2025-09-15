@@ -8,10 +8,9 @@ Prerequisites
 - Node.js 20+ (LTS recommended)
 - npm (comes with Node.js)
 
-Setup (PowerShell):
+Setup (PowerShell) from the project location:
 
 ```powershell
-cd "c:\Users\jason\dev\blue-prince-timer"
 npm install
 npm start
 ```
